@@ -38,7 +38,7 @@ const Characters = props => {
 	);
 };
 Characters.propTypes = {
-	character: PropTypes.json,
+	character: PropTypes.any,
 	addFav: PropTypes.func,
 	delFav: PropTypes.func
 };
